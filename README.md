@@ -5,8 +5,13 @@ Yup, a schema validation library for JavaScript. It is commonly used in JavaScri
 It provides a simple API that makes it easy to define validation rules for your data. 
 Yup also provides a number of built-in validation rules, such as required, email, min, max and number.
 
+To define a schema in yup, you can use the object() method provided by yup. The object() method allows you to create a schema object that represents the structure and validation rules for your data object.
+const schema = yup.object().shape({
+  // Define your fields and their validation rules here
+});
+
  
-                                                          Here is a basic example of using Yup :
+                                                       Here is a basic example of using Yup :
 
 // Firstly Import Yup
 
